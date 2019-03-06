@@ -1,0 +1,3 @@
+FROM fjudith/draw.io AS DRAWIO
+
+EXPOSE 8080

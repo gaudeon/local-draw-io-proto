@@ -1,0 +1,10 @@
+FROM node:lts-alpine AS NODEJS
+
+EXPOSE 3000
+
+VOLUME /app
+
+WORKDIR /app
+
+CMD yarn install && \
+    yarn start
